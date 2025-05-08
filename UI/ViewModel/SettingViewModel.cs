@@ -92,7 +92,8 @@ namespace UI.ViewModel
         {
             var textBox = new TextBox
             {
-                Margin = new Thickness(5)
+                Margin = new Thickness(5),
+                MinWidth = 200,
             };
 
             // 메타데이터에서 텍스트가 있다면 힌트 필드로 적용
