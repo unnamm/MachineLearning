@@ -31,7 +31,7 @@
             </Grid.ColumnDefinitions>
 
             <StackPanel Grid.Column="0" Margin="10">
-                <TextBox Text="{Binding ImageName}" HorizontalAlignment="Left" IsReadOnly="True"/>
+                <TextBox Text="{Binding ImageName}" HorizontalAlignment="Left" IsReadOnly="True" MinWidth="100"/>
                 <TextBlock Text="{Binding ValueOK, StringFormat=True: {0:f2}%}"/>
                 <TextBlock Text="{Binding ValueNG, StringFormat=False: {0:f2}%}"/>
                 <Button Content="Build Model" Command="{Binding ButtonBuildCommand}" HorizontalAlignment="Left" Margin="0,5"/>
